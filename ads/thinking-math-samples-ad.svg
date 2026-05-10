@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="728" height="450" viewBox="0 0 728 450" role="img" aria-label="Thinking Math Samples ad for US Educators">
+  <defs>
+    <linearGradient id="navyGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a237e"/>
+      <stop offset="60%" stop-color="#283593"/>
+      <stop offset="100%" stop-color="#3949ab"/>
+    </linearGradient>
+    <clipPath id="cardClip">
+      <rect width="728" height="450" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <!-- Card background -->
+  <rect width="728" height="450" rx="16" fill="#ffffff" filter="url(#shadow)"/>
+
+  <g clip-path="url(#cardClip)">
+
+    <!-- Left panel -->
+    <rect x="0" y="0" width="364" height="450" fill="url(#navyGrad)"/>
+
+    <!-- Subtle grid dots on left panel -->
+    <g fill="rgba(255,255,255,0.06)">
+      <circle cx="40"  cy="40"  r="2"/><circle cx="80"  cy="40"  r="2"/><circle cx="120" cy="40"  r="2"/>
+      <circle cx="160" cy="40"  r="2"/><circle cx="200" cy="40"  r="2"/><circle cx="240" cy="40"  r="2"/>
+      <circle cx="280" cy="40"  r="2"/><circle cx="320" cy="40"  r="2"/>
+      <circle cx="40"  cy="80"  r="2"/><circle cx="80"  cy="80"  r="2"/><circle cx="120" cy="80"  r="2"/>
+      <circle cx="160" cy="80"  r="2"/><circle cx="200" cy="80"  r="2"/><circle cx="240" cy="80"  r="2"/>
+      <circle cx="280" cy="80"  r="2"/><circle cx="320" cy="80"  r="2"/>
+      <circle cx="40"  cy="120" r="2"/><circle cx="80"  cy="120" r="2"/><circle cx="120" cy="120" r="2"/>
+      <circle cx="160" cy="120" r="2"/><circle cx="200" cy="120" r="2"/><circle cx="240" cy="120" r="2"/>
+      <circle cx="280" cy="120" r="2"/><circle cx="320" cy="120" r="2"/>
+    </g>
+
+    <!-- Badge pill -->
+    <rect x="36" y="36" width="130" height="24" rx="12" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.30)" stroke-width="1"/>
+    <text x="101" y="52.5" font-family="'Segoe UI',system-ui,sans-serif" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="1.2">FOR US EDUCATORS</text>
+
+    <!-- Headline -->
+    <text x="36" y="106" font-family="'Segoe UI',system-ui,sans-serif" font-size="34" font-weight="800" fill="#ffffff">Math That</text>
+    <text x="36" y="148" font-family="'Segoe UI',system-ui,sans-serif" font-size="34" font-weight="800" fill="#ffd740">Makes Kids</text>
+    <text x="36" y="190" font-family="'Segoe UI',system-ui,sans-serif" font-size="34" font-weight="800" fill="#ffd740">Think</text>
+
+    <!-- Divider -->
+    <rect x="36" y="204" width="48" height="3" rx="2" fill="#ffd740"/>
+
+    <!-- Body copy (wrapped manually) -->
+    <text x="36" y="232" font-family="'Segoe UI',system-ui,sans-serif" font-size="13.5" fill="rgba(255,255,255,0.85)" line-height="1.6">Boost conceptual understanding with</text>
+    <text x="36" y="250" font-family="'Segoe UI',system-ui,sans-serif" font-size="13.5" fill="rgba(255,255,255,0.85)">ready-to-use problem sets aligned to</text>
+    <text x="36" y="268" font-family="'Segoe UI',system-ui,sans-serif" font-size="13.5" fill="rgba(255,255,255,0.85)">Common Core &amp; state standards — K–12.</text>
+
+    <!-- CTA button -->
+    <rect x="36" y="296" width="184" height="44" rx="8" fill="#ffd740"/>
+    <text x="128" y="323" font-family="'Segoe UI',system-ui,sans-serif" font-size="14" font-weight="800" fill="#1a237e" text-anchor="middle">Get Free Samples →</text>
+
+    <!-- Social proof -->
+    <text x="36" y="402" font-family="'Segoe UI',system-ui,sans-serif" font-size="11" fill="rgba(255,255,255,0.45)">Trusted by 40,000+ teachers across all 50 states</text>
+
+    <!-- Math symbol decoration -->
+    <text x="318" y="430" font-family="'Segoe UI',system-ui,sans-serif" font-size="72" fill="rgba(255,255,255,0.05)" text-anchor="end">∑</text>
+    <text x="340" y="180" font-family="'Segoe UI',system-ui,sans-serif" font-size="56" fill="rgba(255,255,255,0.05)" text-anchor="end">π</text>
+
+    <!-- Right panel -->
+    <rect x="364" y="0" width="364" height="450" fill="#f8f9ff"/>
+
+    <!-- Right panel header -->
+    <text x="394" y="44" font-family="'Segoe UI',system-ui,sans-serif" font-size="11" font-weight="700" fill="#5c6bc0" letter-spacing="1">SAMPLE PROBLEMS</text>
+
+    <!-- ── Sample card 1 ── -->
+    <rect x="386" y="56" width="320" height="118" rx="10" fill="#ffffff" stroke="#e3e6f7" stroke-width="1"/>
+    <!-- Grade label -->
+    <text x="402" y="76" font-family="'Segoe UI',system-ui,sans-serif" font-size="10.5" font-weight="700" fill="#3949ab" letter-spacing="0.8">GRADE 3 · NUMBER SENSE</text>
+    <!-- Problem -->
+    <text x="402" y="96" font-family="'Segoe UI',system-ui,sans-serif" font-size="13.5" font-weight="600" fill="#1a1a2e">Is 347 closer to 300 or 400?</text>
+    <text x="402" y="113" font-family="'Segoe UI',system-ui,sans-serif" font-size="13.5" font-weight="600" fill="#1a1a2e">How do you know?</text>
+    <!-- Thinking accent bar -->
+    <rect x="402" y="124" width="2" height="38" rx="1" fill="#5c6bc0"/>
+    <!-- Thinking text -->
+    <text x="410" y="137" font-family="'Segoe UI',system-ui,sans-serif" font-size="11.5" fill="#666" font-style="italic">"347 is 47 away from 300 but 53 away</text>
+    <text x="410" y="153" font-family="'Segoe UI',system-ui,sans-serif" font-size="11.5" fill="#666" font-style="italic">from 400 — so it's closer to 300."</text>
+
+    <!-- ── Sample card 2 ── -->
+    <rect x="386" y="188" width="320" height="134" rx="10" fill="#ffffff" stroke="#e3e6f7" stroke-width="1"/>
+    <text x="402" y="208" font-family="'Segoe UI',system-ui,sans-serif" font-size="10.5" font-weight="700" fill="#3949ab" letter-spacing="0.8">GRADE 7 · RATIOS &amp; PROPORTIONS</text>
+    <text x="402" y="228" font-family="'Segoe UI',system-ui,sans-serif" font-size="13.5" font-weight="600" fill="#1a1a2e">A recipe uses 3 cups of flour for every</text>
+    <text x="402" y="245" font-family="'Segoe UI',system-ui,sans-serif" font-size="13.5" font-weight="600" fill="#1a1a2e">2 cups of sugar. How much sugar</text>
+    <text x="402" y="262" font-family="'Segoe UI',system-ui,sans-serif" font-size="13.5" font-weight="600" fill="#1a1a2e">for 9 cups of flour?</text>
+    <rect x="402" y="273" width="2" height="38" rx="1" fill="#5c6bc0"/>
+    <text x="410" y="286" font-family="'Segoe UI',system-ui,sans-serif" font-size="11.5" fill="#666" font-style="italic">"If 3→2, then 9 is 3×3, so sugar</text>
+    <text x="410" y="302" font-family="'Segoe UI',system-ui,sans-serif" font-size="11.5" fill="#666" font-style="italic">= 3×2 = 6 cups."</text>
+
+    <!-- ── Standards tags ── -->
+    <rect x="386" y="338" width="90" height="22" rx="11" fill="#e8eaf6"/>
+    <text x="431" y="353" font-family="'Segoe UI',system-ui,sans-serif" font-size="10.5" font-weight="700" fill="#3949ab" text-anchor="middle">CCSS Aligned</text>
+
+    <rect x="484" y="338" width="74" height="22" rx="11" fill="#e8eaf6"/>
+    <text x="521" y="353" font-family="'Segoe UI',system-ui,sans-serif" font-size="10.5" font-weight="700" fill="#3949ab" text-anchor="middle">TEKS Ready</text>
+
+    <rect x="566" y="338" width="66" height="22" rx="11" fill="#e8eaf6"/>
+    <text x="599" y="353" font-family="'Segoe UI',system-ui,sans-serif" font-size="10.5" font-weight="700" fill="#3949ab" text-anchor="middle">NGSS</text>
+
+    <rect x="386" y="368" width="86" height="22" rx="11" fill="#e8eaf6"/>
+    <text x="429" y="383" font-family="'Segoe UI',system-ui,sans-serif" font-size="10.5" font-weight="700" fill="#3949ab" text-anchor="middle">Editable PDFs</text>
+
+    <rect x="480" y="368" width="104" height="22" rx="11" fill="#e8eaf6"/>
+    <text x="532" y="383" font-family="'Segoe UI',system-ui,sans-serif" font-size="10.5" font-weight="700" fill="#3949ab" text-anchor="middle">Answer Key Included</text>
+
+    <!-- Bottom bar -->
+    <rect x="364" y="412" width="364" height="38" fill="#eef0fb"/>
+    <text x="546" y="435" font-family="'Segoe UI',system-ui,sans-serif" font-size="12" font-weight="600" fill="#3949ab" text-anchor="middle">thinkingmathsamples.com</text>
+
+  </g>
+
+  <!-- Card border -->
+  <rect x="0.5" y="0.5" width="727" height="449" rx="15.5" fill="none" stroke="#e0e0e0" stroke-width="1"/>
+</svg>
