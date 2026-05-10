@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thinking Math Samples – Ad</title>
+  <style>
+    /* ── Reset ── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: #f0f4f8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    /* ── Ad Card (728 × 450 – leaderboard-ish) ── */
+    .ad {
+      width: 728px;
+      background: #ffffff;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 8px 40px rgba(0, 0, 0, 0.12);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    /* ── Left panel ── */
+    .ad__left {
+      background: linear-gradient(145deg, #1a237e 0%, #283593 60%, #3949ab 100%);
+      padding: 40px 36px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      color: #fff;
+    }
+
+    .ad__badge {
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.18);
+      border: 1px solid rgba(255, 255, 255, 0.35);
+      border-radius: 20px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 4px 12px;
+      width: fit-content;
+    }
+
+    .ad__headline {
+      font-size: 30px;
+      font-weight: 800;
+      line-height: 1.2;
+      margin-top: 20px;
+    }
+
+    .ad__headline span {
+      color: #ffd740;
+    }
+
+    .ad__sub {
+      font-size: 13.5px;
+      line-height: 1.6;
+      color: rgba(255, 255, 255, 0.85);
+      margin-top: 14px;
+    }
+
+    .ad__cta {
+      margin-top: 28px;
+      display: inline-block;
+      background: #ffd740;
+      color: #1a237e;
+      font-size: 14px;
+      font-weight: 800;
+      padding: 13px 26px;
+      border-radius: 8px;
+      text-decoration: none;
+      letter-spacing: 0.03em;
+      width: fit-content;
+      transition: background 0.2s;
+    }
+
+    .ad__cta:hover { background: #ffca28; }
+
+    /* ── Right panel ── */
+    .ad__right {
+      padding: 32px 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .ad__right-title {
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #5c6bc0;
+      margin-bottom: 4px;
+    }
+
+    /* Sample cards */
+    .sample {
+      background: #f8f9ff;
+      border: 1px solid #e3e6f7;
+      border-radius: 10px;
+      padding: 14px 16px;
+    }
+
+    .sample__grade {
+      font-size: 10.5px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #3949ab;
+      margin-bottom: 6px;
+    }
+
+    .sample__problem {
+      font-size: 13.5px;
+      font-weight: 600;
+      color: #1a1a2e;
+      line-height: 1.4;
+    }
+
+    .sample__thinking {
+      font-size: 12px;
+      color: #666;
+      margin-top: 6px;
+      line-height: 1.5;
+      font-style: italic;
+      border-left: 2px solid #5c6bc0;
+      padding-left: 8px;
+    }
+
+    /* Standards tag */
+    .ad__standards {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      margin-top: auto;
+      padding-top: 8px;
+    }
+
+    .tag {
+      background: #e8eaf6;
+      color: #3949ab;
+      font-size: 10.5px;
+      font-weight: 700;
+      padding: 3px 9px;
+      border-radius: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="ad" role="banner" aria-label="Thinking Math Samples advertisement">
+
+    <!-- Left panel -->
+    <div class="ad__left">
+      <div>
+        <span class="ad__badge">For US Educators</span>
+        <h1 class="ad__headline">
+          Math That <span>Makes&nbsp;Kids&nbsp;Think</span>
+        </h1>
+        <p class="ad__sub">
+          Boost conceptual understanding with ready-to-use
+          problem sets aligned to Common Core &amp; state
+          standards — Grades K–12.
+        </p>
+        <a class="ad__cta" href="#" aria-label="Get free thinking math samples">
+          Get Free Samples →
+        </a>
+      </div>
+
+      <p style="font-size:11px; color:rgba(255,255,255,0.5); margin-top:24px;">
+        Trusted by 40,000+ teachers across all 50 states
+      </p>
+    </div>
+
+    <!-- Right panel -->
+    <div class="ad__right">
+      <p class="ad__right-title">Sample Problems</p>
+
+      <div class="sample">
+        <div class="sample__grade">Grade 3 · Number Sense</div>
+        <div class="sample__problem">
+          Is 347 closer to 300 or 400? How do you know?
+        </div>
+        <div class="sample__thinking">
+          "I think about the number line… 347 is only 47 away from 300
+          but 53 away from 400, so it's closer to 300."
+        </div>
+      </div>
+
+      <div class="sample">
+        <div class="sample__grade">Grade 7 · Ratios &amp; Proportions</div>
+        <div class="sample__problem">
+          A recipe uses 3 cups of flour for every 2 cups of sugar.
+          How much sugar for 9 cups of flour?
+        </div>
+        <div class="sample__thinking">
+          "If 3 → 2, then 9 is 3×3, so sugar = 3×2 = 6 cups."
+        </div>
+      </div>
+
+      <div class="ad__standards">
+        <span class="tag">CCSS Aligned</span>
+        <span class="tag">TEKS Ready</span>
+        <span class="tag">NGSS Compatible</span>
+        <span class="tag">Editable PDFs</span>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
